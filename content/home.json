@@ -36,7 +36,13 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/rect8589.png"
+          "img": "/img/uploads/ana-tuori-banners-trio-4-.jpg"
+        },
+        {
+          "img": "/img/uploads/ana-tuori-banner-trio-2-.jpg"
+        },
+        {
+          "img": "/img/uploads/ana-tuori-banner-trio-3-.jpg"
         }
       ]
     },
