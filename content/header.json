@@ -1,25 +1,29 @@
 {
   "marketing_stripe": {
-    "text": "Aproveite nossos descontos de até 40%!",
-    "link": "/promotion"
+    "text": "FRETE GRÁTIS nas compras acima de R$499!",
+    "link": "/promotion",
+    "background": "#f6cbbe",
+    "color": "#5d0000"
   },
   "contacts_stripe": {
     "pages": [
       {
         "title": "Sobre nós",
         "link": "/pages/sobre-nos"
-      },
-      {
-        "title": "Esta loja é um PWA",
-        "link": "/posts/esta-loja-e-um-pwa"
       }
     ],
     "phone_wpp": true,
     "socials": true
   },
   "categories_list": {
-    "featured": [],
-    "random": 6,
+    "featured": [
+      "/vestidos-de-festa/?Vestidos de Festa",
+      "/noivas/?Noivas",
+      "/cores/?Por Cores",
+      "/vestidos-femininos/?Vestidos Casuais",
+      "/acessorios/?Acessórios - Clutch e Bolsas"
+    ],
+    "random": 0,
     "full_width": false
   },
   "search_input": true
