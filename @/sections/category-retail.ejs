@@ -1,0 +1,36 @@
+<%
+const search = new _.EcomSearch()
+search
+  .setCategoryNames([_.state.name])
+  .setSortOrder(opt.sort)
+await search.fetch()
+let items = await search.getItems()
+const categoryNames = [_.state.name]
+
+if (!items.length) {
+  const childCategories = _.categories.filter(({ parent }) => {
+    return parent && parent._id === _.state._id
+  })
+  if (childCategories.length) {
+    childCategories.forEach(({ name }) => {
+      categoryNames.push(name)
+    })
+    search
+      .setCategoryNames(categoryNames)
+      .setSortOrder(opt.sort)
+    await search.fetch()
+    items = await search.getItems()
+  }
+}
+%>
+
+<div class="category-retail">
+  <%- await include('@/sections/inc/retail-grid', {
+    _, opt: {
+      items,
+      search,
+      category_names: categoryNames,
+      sort: opt.sort
+    }
+  }) %>
+</div>
