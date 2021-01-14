@@ -1,0 +1,53 @@
+name: Update views
+
+on:
+  schedule:
+    - cron: '50 18 * * MON-FRI'
+  push:
+    branches:
+      - master
+    paths:
+      - '.github/update-views'
+  pull_request:
+    paths:
+      - 'package.json'
+
+jobs:
+  update-views:
+    name: Update default EJS views
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+        with:
+          ref: master
+
+      - name: Config Git user
+        run: |
+          git config --local user.email 'action@github.com'
+          git config --local user.name 'GitHub Action'
+
+      - name: Pull views subtree
+        continue-on-error: true
+        run: |
+          git subtree pull --prefix=template/pages --message="Merge views subtree" \
+            https://github.com/ecomplus/storefront-starter-views master --squash
+
+      - name: Checkout diff as ours
+        run: |
+          for file in ./template/pages/**
+          do
+            git checkout --ours $file -q
+          done
+
+      - name: Commit template pages
+        run: |
+          git add template/pages
+          git diff-index --quiet HEAD || git commit -m "fix(pages): update/merge default views"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master

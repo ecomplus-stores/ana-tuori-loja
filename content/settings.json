@@ -1,0 +1,23 @@
+{
+  "store_id": 1052,
+  "name": "My Shop",
+  "domain": "ecomplus-storefront.netlify.app",
+  "short_name": "My Shop",
+  "description": "My PWA Shop",
+  "primary_color": "#222831",
+  "secondary_color": "#393e46",
+  "bg_color": "#ffffff",
+  "theme": {
+    "bootswatch": "_",
+    "custom": "_"
+  },
+  "logo": "/img/uploads/logo.png",
+  "mini_logo": "",
+  "icon": "/img/icon.png",
+  "large_icon": "/img/large-icon.png",
+  "favicon": "/img/uploads/favicon.png",
+  "lang": "pt_br",
+  "currency": "BRL",
+  "currency_symbol": "R$",
+  "country_code": "BR"
+}
