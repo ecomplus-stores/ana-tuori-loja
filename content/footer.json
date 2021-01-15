@@ -6,12 +6,16 @@
   "links_1": {
     "list_pages": true,
     "title": "Páginas",
-    "list": []
+    "list": [
+      {}
+    ]
   },
   "links_2": {
     "list_categories": true,
     "title": "Categorias",
-    "list": []
+    "list": [
+      {}
+    ]
   },
   "contacts": {
     "title": "Contatos",
@@ -42,5 +46,5 @@
     "mais": false,
     "itau": true
   },
-  "credits": ""
+  "credits": "Ana Tuori - CNPJ: 24.819.465/0001-37 © 2021 Todos os direitos reservados"
 }
