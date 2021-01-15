@@ -2,5 +2,11 @@
   "title": "Contato",
   "meta_title": "Contato",
   "meta_description": "Contato",
-  "body": "### Lorem ipsum dolor sit amet"
+  "body": "Whatsapp: [(64)9 9297-4525](https://api.whatsapp.com/send?phone=5564992974525&text=Olá,%20estou%20entrando%20em%20contato%20através%20da%20Loja%20Ana%20Tuori)[](mailto:contato@anatuori.com)\n\n[](mailto:contato@anatuori.com)E-mail: [contato@anatuori.com](mailto:contato@anatuori.com)\n\n## Endereço\n\nAv. Rio dos Bois, s/n, Setor Leste Industrial, Qd. 121 Lt. 01\n\n##### Anicuns, GO\n\n  [Ver no mapa](<https://www.google.com.br/maps?q=Av. Rio dos Bois, s/n, Setor Leste Industrial, Qd. 121 Lt. 01, Anicuns, GO>)",
+  "sections": [
+    {
+      "type": "extra-page",
+      "enabled": true
+    }
+  ]
 }
