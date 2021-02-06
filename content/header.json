@@ -7,10 +7,6 @@
   },
   "contacts_stripe": {
     "pages": [
-      {
-        "title": "Sobre nós",
-        "link": "/pages/sobre-nos"
-      }
     ],
     "phone_wpp": true,
     "socials": true
@@ -23,7 +19,7 @@
       "/casual/?Roupas Casuais",
       "/acessorios/?Acessórios - Clutch e Bolsas"
     ],
-    "random": 0,
+    "random": 7,
     "full_width": false
   },
   "search_input": true

@@ -7,14 +7,48 @@
       "autoplay": 9000,
       "slides": [
         {
-          "img": "/img/uploads/rect89.webp",
+          "img": "/img/uploads/Ana-Tuori-Banner-2.png",
           "link": "/headset",
           "alt": "Headset banner",
-          "start": "2020-04-11T05:54:06.750Z",
-          "end": "2020-12-31T03:00:00.000Z"
+          "start": "",
+          "end": ""
         },
         {
-          "img": "/img/uploads/banner2.webp",
+          "img": "/img/uploads/Ana-Tuori-Banner-4.png",
+          "link": "/headset",
+          "alt": "Headset banner",
+          "start": "",
+          "end": ""
+        },
+        {
+          "img": "/img/uploads/Ana-Tuori-Banner-3.png",
+          "link": "/headset",
+          "alt": "Headset banner",
+          "start": "",
+          "end": ""
+        },
+        {
+          "img": "/img/uploads/Ana-Tuori-Banner-7.png",
+          "link": "/headset",
+          "alt": "Headset banner",
+          "start": "",
+          "end": ""
+        },
+        {
+          "img": "/img/uploads/Ana-Tuori-Banner-1.png",
+          "link": "/",
+          "alt": "Headset banner",
+          "start": "",
+          "end": ""
+        },
+        {
+          "img": "/img/uploads/Ana-Tuori-Banner-5.png",
+          "alt": "Banner sample two",
+          "start": "",
+          "end": ""
+        },
+        {
+          "img": "/img/uploads/Ana-Tuori-Banner-6.png",
           "alt": "Banner sample two",
           "start": "",
           "end": ""
@@ -23,7 +57,16 @@
     },
     {
       "type": "info-bar",
-      "enabled": true
+      "enabled": false
+    },
+    {
+      "start": "",
+      "end": "",
+      "img": "/img/uploads/Ana-Tuori-Banner-Tarja-4.jpg",
+      "alt": "Banner informacoes gerais",
+      "mobile_img": "/img/uploads/Ana-Tuori-Banner-Tarja-Mobile-4.jpg",
+      "link": "/",
+      "type": "responsive-banner"
     },
     {
       "type": "collection-shelf",

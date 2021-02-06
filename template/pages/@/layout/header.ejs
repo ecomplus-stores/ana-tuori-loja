@@ -167,7 +167,7 @@ if (header.categories_list) {
             class="d-lg-none btn btn-lg"
             id="mobile-search-btn"
             type="button"
-            data-toggle="collapse"
+            data-toggle="hide"
             data-target="#search-bar"
             aria-expanded="true"
             aria-controls="search-bar"
@@ -213,10 +213,10 @@ if (header.categories_list) {
       </div>
 
       <% if (header.search_input) {
-        const searchColSize = !isCategoriesNavFull && categories.length ? '-3' : ''
+        const searchColSize = !isCategoriesNavFull && categories.length ? '-2' : ''
         %>
         <div
-          class="d-none d-lg-block col-12 col-lg<%= searchColSize %> collapse show"
+          class="d-none d-lg-block col-12 hide"
           id="search-bar"
         >
           <form

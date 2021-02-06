@@ -1,1 +1,82 @@
 // Add your custom CSS here.
+.top-bar {
+  &__nav {
+    display: none !important;
+  }
+}
+
+.header {
+  background: #000;
+  color: #fff;
+
+  & * {
+    color: #fff
+  }
+  @media(min-width: 767px) {
+    &__row {
+      display: flex;
+      flex-direction: row;
+
+      .col-auto.p-0 {
+        order: 1
+      }
+      .col.col-lg-auto.pl-1.pl-md-2.pl-lg-3 {
+        order: 2
+      }
+      .d-none.d-lg-block.col {
+        order: 3
+      }
+      .d-none.d-lg-block.col-12 {
+        order: 5;
+
+        &.collapse:not(.show), &.hide.collapse.show {
+          display: none !important;
+        }
+      }
+      .order-lg-last.col-auto.p-0 {
+        order: 4
+      }
+    }
+    #mobile-search-btn {
+      display: inline-flex !important
+    }
+  }
+
+  @media(max-width: 767px) {
+    &__row {
+      .d-lg-block.col-12 {
+        &.collapse:not(.show), &.hide {
+          display: none !important;
+        }
+      }
+    }
+  }
+}
+@media  screen and (min-width: 1368px) and (max-width: 1550px) {
+  .banner-slider {
+    max-width: 100% !important;
+  }
+  .max {
+    width: 100%;
+    margin-top: 2.5rem !important
+  }
+}
+
+//desktop normal size
+@media  screen and (min-width: 992px) and (max-width: 1367px) {
+  //slider full
+  .banner-slider {
+    max-width: 100% !important;
+  }
+  .max {
+    width: 100%;
+    margin-top: 2.5rem !important
+  }
+}
+// apenas tablet
+@media screen and (min-width: 481px) and (max-width: 991px) {
+  //slider full
+  .banner-slider {
+    max-width: 100% !important;
+  }
+}
