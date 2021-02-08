@@ -1,6 +1,6 @@
 {
   "marketing_stripe": {
-    "text": "FRETE GRÁTIS nas compras acima de R$499!",
+    "text": "FRETE GRÁTIS nas compras acima de R$499",
     "link": "/promotion",
     "background": "#f6cbbe",
     "color": "#5d0000"
@@ -19,7 +19,7 @@
       "/acessorios/?Acessórios"
     ],
     "random": 0,
-    "full_width": true
+    "full_width": false
   },
   "search_input": true
 }
