@@ -7,49 +7,30 @@
       "autoplay": 9000,
       "slides": [
         {
-          "img": "/img/uploads/Ana-Tuori-Banner-2.png",
+          "img": "/img/uploads/1.png",
           "link": "/headset",
           "alt": "Headset banner",
           "start": "",
           "end": ""
         },
         {
-          "img": "/img/uploads/Ana-Tuori-Banner-4.png",
+          "img": "/img/uploads/2.png",
           "link": "/headset",
           "alt": "Headset banner",
           "start": "",
           "end": ""
         },
         {
-          "img": "/img/uploads/Ana-Tuori-Banner-3.png",
+          "img": "/img/uploads/3.png",
           "link": "/headset",
           "alt": "Headset banner",
           "start": "",
           "end": ""
         },
         {
-          "img": "/img/uploads/Ana-Tuori-Banner-7.png",
+          "img": "/img/uploads/4.png",
           "link": "/headset",
           "alt": "Headset banner",
-          "start": "",
-          "end": ""
-        },
-        {
-          "img": "/img/uploads/Ana-Tuori-Banner-1.png",
-          "link": "/",
-          "alt": "Headset banner",
-          "start": "",
-          "end": ""
-        },
-        {
-          "img": "/img/uploads/Ana-Tuori-Banner-5.png",
-          "alt": "Banner sample two",
-          "start": "",
-          "end": ""
-        },
-        {
-          "img": "/img/uploads/Ana-Tuori-Banner-6.png",
-          "alt": "Banner sample two",
           "start": "",
           "end": ""
         }
