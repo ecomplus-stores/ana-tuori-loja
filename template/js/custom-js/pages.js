@@ -8,3 +8,4 @@ buttonSearch.addEventListener('click', function (e) {
     toggleClass(document.querySelector('.header .d-lg-block.col-12'), 'hide')
   }
 })
+window.$ecomConfig.set('default_img_size', 'zoom')
