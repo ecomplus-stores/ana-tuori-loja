@@ -9,7 +9,7 @@
   background: #000;
   color: #fff;
 
-  & * {
+  &__toggler-icon, &__buttons i, &__nav a {
     color: #fff
   }
   @media(min-width: 767px) {
@@ -78,5 +78,46 @@
   //slider full
   .banner-slider {
     max-width: 100% !important;
+  }
+}
+.card-header {
+  background: #000;
+  .close {
+    color: #fff;
+  }
+}
+.app {
+  &__header {
+    background: #000;
+    & > * {
+      color: #fff;
+    }
+  }
+  &__contact {
+    span {
+      color: #fff !important;
+    }
+  }
+  .cart {
+    &__btn-back {
+      border: 1px solid #000
+    }
+  }
+  .discount-applier__coupon-btn {
+    border: 1px solid #000
+  }
+}
+.banner-slider + .responsive-baner {
+  .container {
+    max-width: 100%;
+    padding: 0;
+  }
+}
+.footer {
+  background: #fbe0d7;
+  &__title {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px
   }
 }

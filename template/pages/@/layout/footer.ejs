@@ -94,7 +94,7 @@ const networksWithColors = [
         </div>
       </div>
 
-      <div class="col-12 col-sm-6 col-lg">
+      <div class="col-12 col-sm-6 col-lg-2">
         <a
           class="footer__title"
           data-toggle="collapse"
@@ -111,7 +111,6 @@ const networksWithColors = [
               <% (_.cms('pages') || []).forEach(slug => { %>
                 <% const { title } = _.cms(`pages/${slug}`) %>
                 <li>
-                  <i class="fas fa-angle-right"></i>
                   <a href="/pages/<%= slug %>">
                     <%= title %>
                   </a>
@@ -134,46 +133,18 @@ const networksWithColors = [
       </div>
 
       <div class="col-12 col-sm-6 col-lg">
-        <a
-          class="footer__title"
-          data-toggle="collapse"
-          href="#footer-categories"
-          role="button"
-          aria-expanded="false"
-          aria-controls="footer-categories"
-        >
-          <%= footer.links_2.title || _.dictionary('categories') %>
-        </a>
-        <div class="collapse" id="footer-categories">
-          <% if (footer.links_2.list_categories) { %>
-            <ul class="footer__links">
-              <% _.categories.forEach(({ name, slug, parent }) => { %>
-                <% if (!parent) { %>
-                  <li>
-                    <i class="fas fa-angle-right"></i>
-                    <a href="/<%= slug %>">
-                      <%= name %>
-                    </a>
-                  </li>
-                <% } %>
-              <% }) %>
-            </ul>
-          <% } else { %>
-            <ul class="footer__links">
-              <% footer.links_2.list.forEach(({ url, text }) => { %>
-                <li>
-                  <i class="fas fa-angle-right"></i>
-                  <a href="<%= url %>">
-                    <%= text %>
-                  </a>
-                </li>
-              <% }) %>
-            </ul>
-          <% } %>
-        </div>
+        <div class="fb-page" data-href="<%= contacts['facebook'] %>" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="<%= contacts['facebook'] %>"><a href="<%= contacts['facebook'] %>">Ana Tuori</a></blockquote></div></div>
+         <div id="fb-root"></div>
+         <script>(function(d, s, id) {
+           var js, fjs = d.getElementsByTagName(s)[0];
+           if (d.getElementById(id)) return;
+           js = d.createElement(s); js.id = id;
+           js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.3";
+           fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));</script>
       </div>
 
-      <div class="col-12 col-xl-5 order-lg-first">
+      <div class="col-12 col-lg-4 order-lg-first">
         <h2 class="footer__title footer__store">
           <%= footer.description.title || _.settings.name %>
         </h2>
