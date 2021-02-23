@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="<%= _.lang.replace('_', '-') %>" dir="ltr">
+
+<head>
+  <%- await include('@/head') %>
+</head>
+
+<body
+  id="page-<%= _.pageName %>"
+  class="_<%= _.route.path.replace(/\//g, '_') %>"
+  <% if (_.route.resource) { %>
+    data-resource="<%= _.route.resource %>"
+    data-resource-id="<%= _.state._id %>"
+  <% } else if (_.route.collection) { %>
+    data-cms-collection="<%= _.route.collection %>"
+  <% } %>
+>
+  <%- await include('@/layout/menu') %>
+
+  <main role="main" id="main">
+    <%- await include('@/layout/header') %>
+    <article id="content" class="page page--categories">
+  <div class="sections pb-1 pb-sm-2 pb-lg-4">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb my-2 my-sm-3 d-none d-md-flex">
+        <li class="breadcrumb-item d-none d-md-block">
+          <a href="/">
+            <i class="fas fa-home"></i>
+          </a>
+        </li>
+
+
+            <li class="breadcrumb-item d-none d-md-block active" aria-current="page">
+              Promo
+            </li>
+
+
+      </ol>
+    </nav>
+  </div>
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://ana-tuori-loja.netlify.app/","name":"Homepage"}},{"@type":"ListItem","position":2,"item":{"@id":"https://ana-tuori-loja.netlify.app/grids/ofertas","name":"Promo"}}]}</script>
+
+
+
+
+  <div class="page-title container mt-4 mb-4 mb-lg-5">
+    <div class="page-title__head">
+
+      <h1 class="my-0">
+        Promo
+      </h1>
+    </div>
+
+  </div>
+
+    <%
+      const search = new _.EcomSearch()
+      search.setSortOrder('offers')
+      await search.fetch()
+      let items = await search.getItems()
+    %>
+    <div class="grid-retail">
+      <%- await include('@/sections/inc/retail-grid', {
+        _, opt: {
+          items,
+          search,
+          sort: 'offers'
+        }
+      }) %>
+    </div>
+  </div>
+</article>
+    <%- await include('@/layout/footer') %>
+  </main>
+
+  <%- await include('@/json') %>
+  <%- await include('@/scripts') %>
+</body>
+
+</html>

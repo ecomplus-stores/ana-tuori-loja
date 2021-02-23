@@ -268,13 +268,17 @@ if (header.categories_list) {
       <% if (categories && categories.length) { %>
         <div class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %>">
           <nav class="header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
-            <a href="/">Home</a>
+            <a href="/">
+              <h4>Home</h4></a>
             <% categories.forEach(({ slug, name }) => { %>
               <a href="javascript:;" onclick="toggleSidenav('<%= slug %>')">
-                <%= ` ${name} ` %>
+                <h4>
+                  <%= ` ${name} ` %>
+                </h4>
               </a>
             <% }) %>
-            <a style="color: red" href="/grid-ofertas">Promo</a>
+            <a style="color: red" href="/grid/ofertas">
+              <h4>Promo</h4></a>
           </nav>
         </div>
       <% } %>

@@ -1,5 +1,5 @@
 {
-  "css": "",
-  "html_head": "",
-  "html_body": ""
+  "css": "body, p, em, small, span, b, strong, h1, h2, h3, h4, h5, h6 {font-family: 'Dosis', sans-serif}",
+  "html_head": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\"><link href=\"https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap\" rel=\"stylesheet\">",
+  "html_body": "<a href=\"https://wa.me/5564992974525?text=Ola,%20tenho%20uma%20duvida%20da%20loja.anatuori.com.br\" style=\"position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;z-index:1000;\" target=\"_blank\"><i style=\"margin-top:16px\" class=\"fab fa-whatsapp\"></i></a>"
 }
