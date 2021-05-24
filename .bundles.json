@@ -13,8 +13,8 @@
       "chunk.7e4d23ad4d8c87e22579.js.map"
     ],
     "admin": [
-      "admin.6dd26666db250c5997bc.js",
-      "admin.6dd26666db250c5997bc.js.map"
+      "admin.de96a00d91ba4b2b7af3.js",
+      "admin.de96a00d91ba4b2b7af3.js.map"
     ],
     "app-account": [
       "chunk.e8b9aa72af3adf75a71e.js",
@@ -42,9 +42,9 @@
     ],
     "storefront": [
       "storefront.dbfe225d290c590cb8ac.css",
-      "storefront.24de57e0aa8ca4d04a55.js",
+      "storefront.7a3e339dd5f10f77fe0b.js",
       "storefront.dbfe225d290c590cb8ac.css.map",
-      "storefront.24de57e0aa8ca4d04a55.js.map"
+      "storefront.7a3e339dd5f10f77fe0b.js.map"
     ]
   }
 }
