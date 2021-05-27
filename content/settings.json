@@ -1,5 +1,6 @@
 {
   "domain": "ana-tuori-loja.netlify.app",
+  "repository": "ecomplus-stores/ana-tuori-loja",
   "currency_symbol": "R$",
   "primary_color": "#313131",
   "theme": {
