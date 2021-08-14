@@ -38,8 +38,9 @@
       ]
     },
     {
-      "type": "info-bar",
-      "enabled": true
+      "type": "responsive-banner",
+      "img": "/img/uploads/Ana-Tuori-Banner-Tarja-4.jpg",
+      "mobile_img": "/img/uploads/Ana-Tuori-Banner-Tarja-Mobile-4.jpg"
     },
     {
       "type": "collection-shelf",
