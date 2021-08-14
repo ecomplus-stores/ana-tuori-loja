@@ -8,8 +8,8 @@
     "text": "Parcele em até 6x sem juros!"
   },
   "exchange": {
-    "show": false,
-    "text": "Não gostou? A primeira troca é gratuita"
+    "show": true,
+    "text": "Site 100% seguro"
   },
   "promo": {
     "show": true,
