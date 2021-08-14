@@ -42,15 +42,6 @@
       "enabled": true
     },
     {
-      "start": "",
-      "end": "",
-      "img": "/img/uploads/Ana-Tuori-Banner-Tarja-4.jpg",
-      "alt": "Banner informacoes gerais",
-      "mobile_img": "/img/uploads/Ana-Tuori-Banner-Tarja-Mobile-4.jpg",
-      "link": "/",
-      "type": "responsive-banner"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "collection_id": null,
