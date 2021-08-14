@@ -7,28 +7,28 @@
       "autoplay": 9000,
       "slides": [
         {
-          "img": "/img/uploads/1.png",
+          "img": "/img/uploads/banner-iii-3-.png",
+          "link": "/headset",
+          "alt": "Headset banner",
+          "start": "",
+          "end": "2025-01-01T21:33:03.755Z"
+        },
+        {
+          "img": "/img/uploads/banner-iii-4-.png",
           "link": "/headset",
           "alt": "Headset banner",
           "start": "",
           "end": ""
         },
         {
-          "img": "/img/uploads/2.png",
+          "img": "/img/uploads/banner-iii-6-.png",
           "link": "/headset",
           "alt": "Headset banner",
           "start": "",
           "end": ""
         },
         {
-          "img": "/img/uploads/3.png",
-          "link": "/headset",
-          "alt": "Headset banner",
-          "start": "",
-          "end": ""
-        },
-        {
-          "img": "/img/uploads/4.png",
+          "img": "/img/uploads/banner-iii-7-.png",
           "link": "/headset",
           "alt": "Headset banner",
           "start": "",
@@ -54,7 +54,9 @@
       "shuffle": true,
       "collection_id": null,
       "limit": 12,
-      "page": 1
+      "page": 1,
+      "sort": "news",
+      "title": "Lançamentos"
     },
     {
       "type": "banners-grid",
@@ -101,6 +103,14 @@
       "page": 1,
       "collection_id": "5ffe303e69274c73fcf45034:categories:Vestidos de Festa Curtos e Midi:/vestidos-curtos-e-midi/",
       "sort": "views"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "sort": "offers",
+      "title": "PROMO"
     }
   ]
 }
