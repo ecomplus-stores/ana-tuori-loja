@@ -106,16 +106,12 @@
       "title": "PROMO"
     },
     {
-      "type": "page-title",
-      "title": "Nossas clientes"
+      "type": "custom-content",
+      "markdown": "## *[Nossas Clientes](https://ana-tuori-loja.netlify.app/blog/)*"
     },
     {
       "type": "custom-html",
       "html": "<div class=\"blog my-4 my-lg-5\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col col-md-6 col-lg-4\">\n                <div class=\"card\"><a href=\"/posts/cliente-betania-fernandes-vestido-lorena-abr-21\"><img\n                            src=\"/img/uploads/21-anatuori-amoanatuori-anatuoribride5.jpg\" class=\"card-img-top\" alt=\"Cliente Betânia Fernandes ♥️ Vestido Lorena - Abr/21\"></a>\n                    <div class=\"card-body\">\n                        <h5 class=\"card-title\"><a href=\"/posts/cliente-betania-fernandes-vestido-lorena-abr-21\">Cliente Betânia Fernandes ♥️ Vestido Lorena - Abr/21\n                                </a></h5>\n                        <p class=\"card-text\"></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col col-md-6 col-lg-4\">\n                <div class=\"card\"><a href=\"/posts/cliente-gilda-magalhaes-vestido-grace-mar-21\"><img src=\"/img/uploads/21-anatuori-amoanatuori-anatuoribride-1-.jpg\"\n                            class=\"card-img-top\" alt=\"Cliente Gilda Magalhães ♥️ Vestido Grace - Mar/21\"></a>\n                    <div class=\"card-body\">\n                        <h5 class=\"card-title\"><a href=\"/posts/cliente-gilda-magalhaes-vestido-grace-mar-21\">Cliente Gilda Magalhães ♥️ Vestido Grace - Mar/21\n                                </a></h5>\n                        <p class=\"card-text\"></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col col-md-6 col-lg-4\">\n                <div class=\"card\"><a href=\"/posts/cliente-nathalia-miranda-vestido-isabelle-mai-21\"><img src=\"/img/uploads/21-anatuori-amoanatuori.jpg\"\n                            class=\"card-img-top\" alt=\"Cliente Nathalia Miranda ♥️ Vestido Isabelle - Mai/21 \"></a>\n                    <div class=\"card-body\">\n                        <h5 class=\"card-title\"><a href=\"/posts/cliente-nathalia-miranda-vestido-isabelle-mai-21\">Cliente Nathalia Miranda ♥️ Vestido Isabelle - Mai/21 \n                                </a></h5>\n                        <p class=\"card-text\"></p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
-    },
-    {
-      "type": "custom-content",
-      "markdown": "# Nossas Clientes"
     }
   ]
 }
