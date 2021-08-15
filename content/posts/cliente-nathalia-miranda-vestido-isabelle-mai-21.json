@@ -4,6 +4,17 @@
   "thumbnail": "/img/uploads/21-anatuori-amoanatuori-1-.jpg",
   "sections": [
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/21-anatuori-amoanatuori-1-.jpg"
+        },
+        {
+          "img": "/img/uploads/21-anatuori-amoanatuori.jpg"
+        }
+      ]
+    },
+    {
       "type": "blog",
       "enabled": true
     }
