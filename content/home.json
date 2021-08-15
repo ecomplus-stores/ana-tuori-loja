@@ -109,22 +109,28 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/21-anatuori-amoanatuori-anatuoribride.jpg"
+          "img": "/img/uploads/21-anatuori-amoanatuori-anatuoribride5.jpg",
+          "link": "https://www.instagram.com/amoanatuori/"
         },
         {
-          "img": "/img/uploads/21-anatuori-amoanatuori.jpg"
+          "img": "/img/uploads/21-anatuori-amoanatuori.jpg",
+          "link": "https://www.instagram.com/amoanatuori/"
         },
         {
-          "img": "/img/uploads/21-anatuori-amoanatuori-anatuoribride2.jpg"
+          "img": "/img/uploads/21-anatuori-amoanatuori-anatuoribride2.jpg",
+          "link": "https://www.instagram.com/amoanatuori/"
         },
         {
-          "img": "/img/uploads/21-anatuori-amoanatuori-anatuoribride.jpg"
+          "img": "/img/uploads/21-anatuori-amoanatuori-anatuoribride4.jpg",
+          "link": "https://www.instagram.com/amoanatuori/"
         },
         {
-          "img": "/img/uploads/21-anatuori-amoanatuori-anatuoribride.jpg"
+          "img": "/img/uploads/21-anatuori-amoanatuori-anatuoribride.jpg",
+          "link": "https://www.instagram.com/amoanatuori/"
         },
         {
-          "img": "/img/uploads/21-anatuori-amoanatuori-anatuoribride3.jpg"
+          "img": "/img/uploads/21-anatuori-amoanatuori-anatuoribride3.jpg",
+          "link": "https://www.instagram.com/amoanatuori/"
         }
       ]
     }
