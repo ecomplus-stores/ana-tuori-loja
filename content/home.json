@@ -106,6 +106,10 @@
       "title": "PROMO"
     },
     {
+      "type": "custom-content",
+      "markdown": "> #### `Nossas clientes`"
+    },
+    {
       "type": "banners-grid",
       "banners": [
         {
