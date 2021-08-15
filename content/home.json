@@ -137,6 +137,10 @@
           "link": "https://www.instagram.com/amoanatuori/"
         }
       ]
+    },
+    {
+      "type": "blog",
+      "enabled": true
     }
   ]
 }
