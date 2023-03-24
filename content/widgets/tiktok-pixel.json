@@ -1,11 +1,12 @@
 {
-  "pkg": "@ecomplus/widget-analytics",
+  "pkg": "@ecomplus/widget-tiktok-pixel",
   "active": false,
   "desktopOnly": false,
   "enableCheckout": true,
   "options": {
-    "gaTrackingId": "UA-59046976-8",
-    "googleAdsId": ""
+    "tiktokPixelId": "",
+    "debug": false,
+    "partytown": false
   },
   "headAppend": "src/append/head"
 }
