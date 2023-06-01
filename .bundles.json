@@ -1,27 +1,27 @@
 {
   "assetsByChunkName": {
-    "vendors~app-account~app-checkout~app-confirmation~app-order": "chunk.7cc9a5719fd3ae43774b.js",
-    "vendors~app-account~app-confirmation~app-order": "chunk.a8ee6785286a761dd8af.js",
-    "vendors~app-account~app-checkout": "chunk.2304f27fbdaeb03ba193.js",
-    "vendors~app-cart~app-checkout": "chunk.82db3f3b43fb536aad75.js",
+    "vendors~app-account~app-checkout~app-confirmation~app-order": "chunk.4ecbcbb1e6841e2e61e2.js",
+    "vendors~app-account~app-confirmation~app-order": "chunk.8cea219abb2f2d366907.js",
+    "vendors~app-account~app-checkout": "chunk.914af3c913439b22e3b0.js",
+    "vendors~app-cart~app-checkout": "chunk.e5fff0b453e9e0be5333.js",
     "admin": [
-      "admin.9c4da06c50c519103a50.js",
-      "admin.9c4da06c50c519103a50.js.map"
+      "admin.d694f1122d41a65bf0fc.js",
+      "admin.d694f1122d41a65bf0fc.js.map"
     ],
-    "app-account": "chunk.3d2c83eddc001456a669.js",
-    "app-checkout": "chunk.18e7b19c36e7a3593f0a.js",
-    "app-confirmation": "chunk.0ed60bbd73f270d75c30.js",
-    "app-order": "chunk.e60aa1969add97c20e55.js",
+    "app-account": "chunk.807c55aafdb33910df31.js",
+    "app-checkout": "chunk.abcf434b8e807278fd51.js",
+    "app-confirmation": "chunk.86ff71785f07f8187efe.js",
+    "app-order": "chunk.77fa64b5682ff395ac4a.js",
     "checkout": [
-      "checkout.1ec322fdd2281c2ddb4d.js",
-      "checkout.1ec322fdd2281c2ddb4d.js.map"
+      "checkout.952382c4e0ab9caa1039.js",
+      "checkout.952382c4e0ab9caa1039.js.map"
     ],
     "storefront": [
-      "storefront.39018bf5c4ed52934f0f.css",
-      "storefront.03e152b06dc80dace3a3.js",
-      "storefront.39018bf5c4ed52934f0f.css.map",
-      "storefront.03e152b06dc80dace3a3.js.map"
+      "storefront.72f552317a73a8944825.css",
+      "storefront.d57094557668657d4c61.js",
+      "storefront.72f552317a73a8944825.css.map",
+      "storefront.d57094557668657d4c61.js.map"
     ],
-    "vendors~app-cart": "chunk.d64eccff64db0faf51e5.js"
+    "vendors~app-cart": "chunk.552198c806406e18ef5b.js"
   }
 }
