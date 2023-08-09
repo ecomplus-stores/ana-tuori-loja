@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.b3f48b171ad8bf3411234f8a387796d1.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.909d354c818ed996c1df48869a5af595.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.d9dfa6ad6e0364389e6d7cc6c00adb99.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.77108d883b1748cc675576503a02842b.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.1785619b18c2f10f2981fccf3901ce17.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Ana Tuori | Loja de Vestidos de Festa, Casamento Civil e Mais",
+  "short_name": "Ana Tuori",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Vestidos elegantes e modernos para que você se sinta a mulher mais atraente da festa! ;) Nossas peças são embaladas com muito carinho e cuidado para que cheguem em sua casa exatamente como você sonhou. Nosso propósito é deixar você cada vez mais bela e confiante para realizar seus sonhos. Desperte sua beleza, acredite no seu poder! <3",
+  "background_color": "#fff",
+  "theme_color": "#313131"
+}
