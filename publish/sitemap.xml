@@ -2,54 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>https://ana-tuori-loja.netlify.app/noivas/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://ana-tuori-loja.netlify.app/vestidos-longos/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://ana-tuori-loja.netlify.app/vestidos-curtos-e-midi/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://ana-tuori-loja.netlify.app/casual/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://ana-tuori-loja.netlify.app/vestidos-longos-noivas/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://ana-tuori-loja.netlify.app/vestidos-de-festa/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://ana-tuori-loja.netlify.app/acessorios/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://ana-tuori-loja.netlify.app/vestidos-curtos-e-midi-noivas/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
       <loc>https://ana-tuori-loja.netlify.app/maressa-vestido-festa-sereia-azul-serenity</loc>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
@@ -7262,31 +7214,49 @@
     </url>
   
     <url>
-      <loc>https://ana-tuori-loja.netlify.app/marca/ave-rara</loc>
+      <loc>https://ana-tuori-loja.netlify.app/noivas/</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
   
     <url>
-      <loc>https://ana-tuori-loja.netlify.app/marca/patchoulee</loc>
+      <loc>https://ana-tuori-loja.netlify.app/vestidos-longos/</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
   
     <url>
-      <loc>https://ana-tuori-loja.netlify.app/marca/doce-maria</loc>
+      <loc>https://ana-tuori-loja.netlify.app/vestidos-curtos-e-midi/</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
   
     <url>
-      <loc>https://ana-tuori-loja.netlify.app/marca/ana-tuori</loc>
+      <loc>https://ana-tuori-loja.netlify.app/casual/</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
   
     <url>
-      <loc>https://ana-tuori-loja.netlify.app/marca/outras</loc>
+      <loc>https://ana-tuori-loja.netlify.app/vestidos-longos-noivas/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://ana-tuori-loja.netlify.app/vestidos-de-festa/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://ana-tuori-loja.netlify.app/acessorios/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://ana-tuori-loja.netlify.app/vestidos-curtos-e-midi-noivas/</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -7395,6 +7365,36 @@
   
     <url>
       <loc>https://ana-tuori-loja.netlify.app/candy-colors</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://ana-tuori-loja.netlify.app/marca/ave-rara</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://ana-tuori-loja.netlify.app/marca/patchoulee</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://ana-tuori-loja.netlify.app/marca/doce-maria</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://ana-tuori-loja.netlify.app/marca/ana-tuori</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://ana-tuori-loja.netlify.app/marca/outras</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
