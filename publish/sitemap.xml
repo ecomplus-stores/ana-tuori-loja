@@ -7400,13 +7400,13 @@
     </url>
   
     <url>
-      <loc>https://ana-tuori-loja.netlify.app/pages/contato</loc>
+      <loc>https://ana-tuori-loja.netlify.app/pages/entrega</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://ana-tuori-loja.netlify.app/pages/entrega</loc>
+      <loc>https://ana-tuori-loja.netlify.app/pages/contato</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
